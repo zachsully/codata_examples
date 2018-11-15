@@ -6,7 +6,7 @@ implememntations of codata.
 ## Haskell Language Extension
 
 The compiler for these examples is found at
-[https://github.com/zachsully/ghc/codata-macro]. It is a fork of GHC 7.4.
+[https://github.com/zachsully/ghc/tree/codata-macro]. It is a fork of GHC 7.4.
 
 The language extension can be enabled with the pragma
 `{-# LANGUAGE Copatterns #-}`. The syntax for introducing codata types is
@@ -17,14 +17,15 @@ observations for a with type will be applied to an object `w` as `obs_Fst w`.
 
 Examples:
 
-* `Examples_From_Hughes_WFPM.hs`
-* `Fib.hs`
-* `Primes.hs`
+* `Examples_From_Hughes_WFPM.hs` - Examples from Hughes "Why Functional
+  Programming Matters"
+* `Fib.hs` - A standalone application for computing the nth Fibonacci number
+* `Primes.hs` - A standalone application for computing the nth prime number
 
 ## Prototype Language
 
 The compiler for these examples is at [https://github.com/zachsully/dl].
 
 Examples:
-* "fib100.dl"
-* many small examples in "dl/examples/source"
+* `fib100.dl` - A program computing the 100th Fibonacci number
+* many small examples in `dl/examples/source`
