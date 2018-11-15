@@ -21,6 +21,9 @@ Examples:
   Programming Matters"
 * `Fib.hs` - A standalone application for computing the nth Fibonacci number
 * `Primes.hs` - A standalone application for computing the nth prime number
+* `FileSystem.hs` - A small filesystem using indexed codata for controlling
+    access to read/write operations
+* `Set.hs` - Sets represented as codata
 
 ## Prototype Language
 
