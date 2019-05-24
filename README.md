@@ -6,7 +6,7 @@ implememntations of codata.
 ## Haskell Language Extension
 
 The compiler for these examples is found at
-[https://github.com/zachsully/ghc/tree/codata-macro]. It is a fork of GHC 7.4.
+[https://github.com/zachsully/ghc/tree/codata-macro]. It is a fork of GHC 8.4.
 
 The language extension can be enabled with the pragma
 `{-# LANGUAGE Copatterns #-}`. The syntax for introducing codata types is
